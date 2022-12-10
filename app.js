@@ -11,8 +11,7 @@ app.use(express.json())
 
 mongoose
   .connect(
-    // 'mongodb+srv://webhw:webhw111111@cluster0.khhdtkt.mongodb.net/?retryWrites=true&w=majority',
-    'mongodb+srv://kunal:fse123456@cluster0.wuwbxi4.mongodb.net/tuiter-web?retryWrites=true&w=majority',
+    'mongodb+srv://webhw:webhw111111@cluster0.khhdtkt.mongodb.net/?retryWrites=true&w=majority',
   )
   .then(() => {
     console.log('Connected to MongoDB!')
